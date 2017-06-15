@@ -1,0 +1,27 @@
+{
+  "name": "nodebottemplate",
+  "version": "1.0.0",
+  "description": "template for node bot application",
+  "main": "app.js",
+  "engines":{
+    "node":"6.10.2",
+    "npm":"3.10.10"
+  },
+  "scripts": {
+    "start":"node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonSowers/NodeBotTemplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonSowers/NodeBotTemplate/issues"
+  },
+  "homepage": "https://github.com/JasonSowers/NodeBotTemplate#readme",
+  "dependencies": {
+    "botbuilder": "^3.8.4",
+    "restify": "^4.3.0"
+  }
+}
